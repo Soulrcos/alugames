@@ -1,5 +1,4 @@
-const select = (item) => document.querySelectorAll(item);
-const imgJogo = select('.dashboard__items__item');
+const imgJogo = document.querySelectorAll('.dashboard__items__item');
 let jogoAlugado = 3;
 
 
